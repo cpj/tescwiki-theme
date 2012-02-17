@@ -1,8 +1,7 @@
 /* LICENSE and credits: please see LICENSE.txt in this directory */
 
 body {
-    z-index: 0;
-    background: #fafafa url(../img/body-bg.png) top left repeat;
+    background: #fff;
 }
 
 /*
@@ -12,12 +11,12 @@ body {
 */
 
 body {
-    font: 16px/25px "Cabin", Arial, "Helvetica Neue", "Helvetica", sans-serif;
-    color: #444;
+    font: 16px/25px "Helvetica Neue", "Helvetica", sans-serif;
+    color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #222;
+    color: #fff;
     font-weight: bold;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
 }
@@ -128,9 +127,9 @@ textarea, input, select {
 
 
 #header {
-    background: #E8ECEF url(../img/header-bg.png) top left repeat;
-    border: 1px solid #E8ECEF;
-    border-bottom: 1px solid #DAE1E5;
+    background: #2c7c32;
+    border: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 #header_bar {
     margin-left: 1.5em;
@@ -138,7 +137,7 @@ textarea, input, select {
     min-height: 4.2em;
 }
 #header_bar a, #header_bar a:link {
-    color: #444;
+    color: #fff;
 }
 #header_bar a:hover {
     color: #111;
@@ -221,7 +220,7 @@ textarea, input, select {
     float: right;
     clear: right;
     text-align: right;
-    margin-right: 2em;
+    margin-right: 0;
     margin-top: 0.4em;
 }
 #login_info .welcome {
@@ -331,7 +330,7 @@ textarea, input, select {
 #nav {
     list-style-type: none;
     position: absolute;
-    margin-left: 2em;
+    margin-left: 1.4em;
     margin-top: -2em;
 }
 #nav a, #nav a:link {

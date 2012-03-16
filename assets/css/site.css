@@ -11,7 +11,7 @@ body {
 */
 
 body {
-    font: 16px/25px "Helvetica Neue", "Helvetica", sans-serif;
+    font: 16px/25px "Cabin", "Helvetica Neue", "Helvetica", sans-serif;
     color: #000;
 }
 
@@ -88,8 +88,8 @@ textarea, input, select {
 */
 
 #main {
-    margin-left: 5em;
-    margin-right: 8em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 /*
@@ -127,13 +127,13 @@ textarea, input, select {
 
 
 #header {
-    background: #2c7c32;
+    background: url(../img/road.jpg);
     border: 2px solid #000;
     border-bottom: 2px solid #000;
 }
 #header_bar {
     margin-left: 1.5em;
-    padding-left: 3.5em;
+    padding-left: 1.5em;
     min-height: 4.2em;
 }
 #header_bar a, #header_bar a:link {
@@ -219,7 +219,9 @@ textarea, input, select {
 #login_info {
     float: right;
     clear: right;
+    background: #fafafa url(../img/body-bg.png) top left repeat;
     text-align: right;
+    padding: .3em;
     margin-right: 0;
     margin-top: 0.4em;
 }
@@ -256,16 +258,16 @@ textarea, input, select {
 
 /* The entire-map div */
 #map {
-    background: #E8ECEF url(../img/header-bg.png) top left repeat;
+    background: #CCCCCC;
     padding: 10px 10px 4px 10px;
-    border-bottom: 1px solid #DAE1E5;
-    border-left: 1px solid #DAE1E5;
-    border-right: 1px solid #DAE1E5;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     float: right;
-    margin-top: -1.2em;
+    margin-top: 1em;
     margin-left: 1em;
     margin-bottom: 0.8em;
 }
@@ -277,7 +279,7 @@ textarea, input, select {
 }
 /* Just the widget. Contained in #map. */
 .mapwidget.small {
-  border: 1px solid #b5b5b5;
+  border: 1px solid #000;
   width: 400px!important;
   height: 300px!important;
 }
@@ -975,6 +977,44 @@ form #content_footer {
     min-height: 4em;
 }
 
+#page .welcome td {
+    display: block;
+    max-width: 1360px;
+    height: 280px;
+    background: #203A1B;
+    padding: 2em;
+    border: 3px solid #b5b5b5;
+}
+#page .welcome {
+    width: 100%;
+    border: none;
+}
+#page .welcome a {
+    text-decoration: none;
+}
+#page .welcome a:hover {
+    text-decoration: underline;
+}
+#page .welcome h1, #page .welcome h2, #page .welcome h3, #page .welcome h4 {
+    background-image: url(../img/80_trans_white_bg.png;
+    background-repeat: repeat;
+    width: auto;
+    float: right;
+    padding: 0 0.25em 0 0.25em;
+}
+#page .welcome h1 {
+    padding: 0.1em 0.25em 0.1em 0.25em;
+}
+#page .welcome h3 {
+    padding: 0.2em 0.3em 0.25em 0.3em;
+    margin-top: -1em;
+}
+#page .welcome .searchbox * {
+    vertical-align: middle;
+}
+#page .welcome .searchbox input {
+    margin-top: 0.4em;
+}
 
 /*
 ====================================

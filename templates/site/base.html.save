@@ -51,11 +51,12 @@
      </div>
     </div>
   </div>
-<div class="container">
+
+  <div class="container">
     {% block main_wrapper %}
-    <div id="main" class="container">
+    <div id="main">
       {% block main %}
-        <div id="main_header" class="container">
+        <div id="main_header">
         <div id="page">  
       {% block main_header %}
           {% block messages %}
@@ -65,14 +66,16 @@
                 <li{% if message.tags %} class="{{ message.tags }}"{% endif%}>{{ message|safe }}</li>
                 {% endfor %}
             </ul>
+	</div>
             {% endif %}
           {% endblock %}
           {% block dialog %}{% endblock %}
         {% endblock %}
+   </div>
         {% block content_wrapper %}
         <div id="content_wrapper">
           <div id="content">
-	  {% block content %}
+	<div class="includepage_left" style="width: 50%;">	  {% block content %}
             {% block content_header %}{% endblock %}
             {% block content_footer %}{% endblock %}
           {% endblock %}
